@@ -1,0 +1,34 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url("https://i.pinimg.com/originals/b4/e3/71/b4e371619042d1e80918d09904e90f7d.gif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Validation{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 40vw;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.Validation h1,p{
+  color: white;
+}
+
+.Validation input{
+  width: 80%;
+  border-radius: 0,4rem;
+  border-color: white;
+  margin-bottom: 1rem;
+  text-align: center;
+}
